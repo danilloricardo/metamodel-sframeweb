@@ -148,7 +148,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="DAOInterfaceAttribute"
         upperBound="-1" eType="#//DAOAttribute" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DAOClass" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class">
+  <eClassifiers xsi:type="ecore:EClass" name="DAOClass" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class.1">
     <eStructuralFeatures xsi:type="ecore:EReference" name="BaseImplements" lowerBound="4"
         upperBound="4" eType="#//DAOBaseOperation" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="DAOImplements" upperBound="-1"
@@ -164,7 +164,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="SourceDAOInterface" lowerBound="1"
         eType="#//DAOInterface"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="FrontControllerClass" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class">
+  <eClassifiers xsi:type="ecore:EClass" name="FrontControllerClass" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class.1">
     <eStructuralFeatures xsi:type="ecore:EReference" name="FrontControllerAttribute"
         lowerBound="1" upperBound="-1" eType="#//IOParameter" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="FrontControllerClassMethod"
@@ -224,7 +224,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="Contains" lowerBound="1"
         upperBound="-1" eType="#//SFrameWebName" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ServiceClass" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class">
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceClass" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class.1">
     <eStructuralFeatures xsi:type="ecore:EReference" name="ServiceClassAttribute"
         eType="#//ServiceAttribute" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ServiceClassOperation"
@@ -248,7 +248,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="TargetFrontController"
         lowerBound="1" eType="#//FrontControllerClass"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DomainClass" abstract="true" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class">
+  <eClassifiers xsi:type="ecore:EClass" name="DomainClass" abstract="true" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class.1">
     <eStructuralFeatures xsi:type="ecore:EReference" name="DomainClassAttribute" lowerBound="1"
         upperBound="-1" eType="#//DomainAttribute" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="DomainClassOperation" upperBound="-1"
@@ -332,7 +332,7 @@
     <eLiterals name="union" value="1"/>
     <eLiterals name="join" value="2"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="NavigationClass" abstract="true" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+  <eClassifiers xsi:type="ecore:EClass" name="NavigationClass" abstract="true" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class.1"/>
   <eClassifiers xsi:type="ecore:EClass" name="DomainOperation" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Operation"/>
   <eClassifiers xsi:type="ecore:EClass" name="DAOAttribute" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Property"/>
   <eClassifiers xsi:type="ecore:EClass" name="ServiceOperation" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Operation"/>
@@ -389,7 +389,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FrameworkTag" eSuperTypes="#//Tag"/>
   <eClassifiers xsi:type="ecore:EClass" name="Rule"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Tag" abstract="true" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class">
+  <eClassifiers xsi:type="ecore:EClass" name="Tag" abstract="true" eSuperTypes="platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore#//Class.1">
     <eStructuralFeatures xsi:type="ecore:EReference" name="SubTag" upperBound="-1"
         eType="#//Tag" containment="true"/>
   </eClassifiers>
